@@ -1,0 +1,25 @@
+/* src/index.css */
+body{
+    height: 100vh;
+}
+.cont-404 {
+    text-align: center;
+    width: 900px;
+    margin-left: 270px;
+}
+
+.cont-404 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cont-404 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color:rgb(132, 61, 141) ;
+    background-size: 300% 100%;
+    border-radius: 3rem;
+    margin-bottom: 50px;
+}

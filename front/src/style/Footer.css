@@ -1,0 +1,62 @@
+
+  
+  /* Mobile */
+@media only screen and (max-width: 767px) {
+  #grid{
+    grid-template-columns: repeat(1fr);
+  }
+
+  #text{
+    display:none;
+  }
+  #ima{
+    margin-right: 15px;
+  }
+ #cont{
+  margin-left: 90px;
+  text-align: center;
+  align-items: center;
+ }
+
+/*C:\cmder\LoparkGrad\graduation-project\back\python\video\vid22.mp4*/
+  
+  }
+  
+ /* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .footer .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .footer .col-span-2 {
+      grid-column: span 2;
+      margin-right: 10rem; /* Adjust as needed */
+    }
+  
+    .footer .contacts {
+      margin-right: 10rem; /* Adjust as needed */
+    }
+  
+    .footer .social {
+      margin-left: 5rem; /* Adjust as needed */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .footer .grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  
+    .footer .col-span-2 {
+      grid-column: span 2;
+      margin-right: 15rem; /* Adjust as needed */
+    }
+  
+    .footer .contacts {
+      margin-right: 10rem; /* Adjust as needed */
+    }
+  
+    .footer .social {
+      margin-left: 5rem; /* Adjust as needed */
+    }
+  }
